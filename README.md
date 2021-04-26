@@ -7,7 +7,7 @@ Simple calculator application with basic functionalities. You can add, subtract,
 ## Featues of the application
 <img src="https://user-images.githubusercontent.com/56734609/116057798-9762b380-a698-11eb-9f1d-d09c99d41ff7.gif" width="400" heigth="730" />  
 
-[<img src="https://user-images.githubusercontent.com/56734609/114071381-7ccbc480-98ba-11eb-959f-674cb3a25e1e.png" width="200" height="200">](https://www.youtube.com/watch?v=wOY_BBBW9lQ "On Youtube")
+[<img src="https://user-images.githubusercontent.com/56734609/114071381-7ccbc480-98ba-11eb-959f-674cb3a25e1e.png" width="200" height="200">](https://youtu.be/_OEl6tvwF70 "On Youtube")
 
 
 Inspired and followed by [this](https://studyviewer.com/android-calculator-in-kotlin-using-android-studio/)
