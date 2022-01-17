@@ -1,18 +1,18 @@
 package com.donaboyev.simplecalculator
 
-import androidx.appcompat.app.AppCompatActivity
+import android.annotation.SuppressLint
 import android.os.Bundle
 import android.view.View
 import android.widget.Button
-import android.widget.TextView
+import androidx.appcompat.app.AppCompatActivity
 import com.donaboyev.simplecalculator.databinding.ActivityMainBinding
 import net.objecthunter.exp4j.ExpressionBuilder
 
 class MainActivity : AppCompatActivity() {
 
-    var lastNumeric: Boolean = false
-    var stateError: Boolean = false
-    var lastDot: Boolean = false
+    private var lastNumeric: Boolean = false
+    private var stateError: Boolean = false
+    private var lastDot: Boolean = false
 
     private lateinit var binding: ActivityMainBinding
 
@@ -55,7 +55,8 @@ class MainActivity : AppCompatActivity() {
         lastDot = false
     }
 
-    fun onEqual(view:View) {
+    @SuppressLint("SetTextI18n")
+    fun onEqual(view: View) {
         if (lastNumeric && !stateError) {
             val text = binding.tvInput.text.toString()
             val expression = ExpressionBuilder(text).build()
